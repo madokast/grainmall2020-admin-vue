@@ -14,7 +14,7 @@
       <el-form-item label="品牌名" prop="name">
         <el-input v-model="dataForm.name" placeholder="品牌名"></el-input>
       </el-form-item>
-      <el-form-item label="品牌logo地址" prop="logo">
+      <el-form-item label="品牌logo" prop="logo">
         <!-- <el-input v-model="dataForm.logo" placeholder="品牌logo地址"></el-input> -->
         <Single-upload v-model="dataForm.logo"></Single-upload>
       </el-form-item>
